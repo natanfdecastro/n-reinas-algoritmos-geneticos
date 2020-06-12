@@ -22,6 +22,37 @@ El programa recibe como entrada el _tamaño del tablero_ `número entero mayor a
 ```sh
 $ python3 main.py [tamano_del_tablero] 
 ```
+
+## Resultados de ejecución del programa
+
+**Resultado de Ejecución para _tamaño de tablero = 5 (n)_**
+
+![Solucion_1](https://github.com/natanfdecastro/n-reinas-algoritmos-geneticos/blob/master/resources/Solucion_2.png)
+
+_tiempo de ejecución del programa < 1 segundo_
+
+**Resultado de Ejecución para _tamaño de tablero = 10 (n)_**
+
+![Solucion 2](https://github.com/natanfdecastro/n-reinas-algoritmos-geneticos/blob/master/resources/Solucion_3.png)
+
+_tiempo de ejecución del programa < 1 segundo_
+
+**Resultado de Ejecución para _tamaño de tablero = 20 (n)_**
+
+![Solucion 3](https://github.com/natanfdecastro/n-reinas-algoritmos-geneticos/blob/master/resources/Solucion_4.png)
+
+_tiempo de ejecución del programa 14.06 segundos aprox._
+
+**Resultado de Ejecución para _tamaño de tablero = 40 (n)_**
+
+![Solucion_4](https://github.com/natanfdecastro/n-reinas-algoritmos-geneticos/blob/master/resources/Solucion_1.png)
+
+_tiempo de ejecución del programa 40.92 segundos aprox._
+
+#### Notas
+* Mayor tamaño de tablero probado _n = 343_, encontrando solución.
+* Tiempos de ejecución según _Core i7-6600U CPU 2.81 GHz_.
+
 ## Historia _N-Reinas_
 
 El problema fue originalmente propuesto en 1848 por el ajedrecista Max Bezzel. Durante años, muchos matemáticos, incluyendo a Gauss y a Georg Cantor, han trabajado en él y lo han generalizado a n-reinas. Las primeras soluciones fueron ofrecidas por Franz Nauck en 1850. Nauck también se abocó a las n-reinas (en un tablero de nxn de tamaño arbitrario). En 1874, S. Günther propuso un método para hallar las soluciones usando determinantes, y J.W.L. Glaisher redefinió su aproximación.
